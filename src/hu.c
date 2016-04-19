@@ -1,4 +1,4 @@
-#include <R.h>
+#include <Rmath.h>
  
 void
 heat_units(int *n, double *t_min, double *t_max, double *ans,
