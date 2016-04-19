@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <math.h>
+#include <R.h>
  
 void
 heat_units(int *n, double *t_min, double *t_max, double *ans,
