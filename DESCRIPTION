@@ -1,5 +1,5 @@
-Package: phen
-Title: phen
+Package: phenR
+Title: phenR
 Description: Tools to calculate heat units and calibrate phenology models
 Version: 0.1-0
 License: BSD
