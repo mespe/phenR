@@ -1,0 +1,8 @@
+Package: phen
+Title: phen
+Description: Tools to calculate heat units and calibrate phenology models
+Version: 0.1-0
+License: BSD
+Author: Matt Espe
+Maintainer: Matt Espe <mespe@ucdavis.edu>
+RoxygenNote: 5.0.1
