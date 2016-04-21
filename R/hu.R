@@ -24,6 +24,7 @@ heat_units <- function(tmin, tmax,
        ans = as.numeric(rep(0, length(tmin))),
        t_base = as.numeric(tbase),
        t_opt = as.numeric(topt),
-       t_high = as.numeric(thigh))$ans
+       t_high = as.numeric(thigh),
+       cos_vals = as.numeric(cos(0.2618 * -13:10) / 2))$ans
     
 }
