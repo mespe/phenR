@@ -6,7 +6,7 @@ TO DO:
 
   - [ ] Add wrapper function to sum heat units over a specified period
   
-  - [ ] Warnings and checks on heat\_units()
+  - [X] Warnings and checks on heat\_units()
   
   - [ ] Add function to read weather files
   

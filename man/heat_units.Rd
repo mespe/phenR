@@ -4,18 +4,18 @@
 \alias{heat_units}
 \title{Heat Units}
 \usage{
-heat_units(tmin, tmax, tbase = 8, topt = 30, thigh = 42)
+heat_units(tmin, tmax, t_base = 8, t_opt = 30, t_high = 42)
 }
 \arguments{
 \item{tmin}{vector of daily minimum temperatures}
 
 \item{tmax}{vector of daily maximum temperatures}
 
-\item{tbase}{base cardinal temperature for development}
+\item{t_base}{base cardinal temperature for development}
 
-\item{topt}{optimimum temperature for development}
+\item{t_opt}{optimimum temperature for development}
 
-\item{thigh}{maximum temperature for development}
+\item{t_high}{maximum temperature for development}
 }
 \value{
 vector of daily heat units
@@ -25,7 +25,8 @@ Calculate heat units
 }
 \details{
 Takes a vector of daily minimum and maximum temperatures,
-    and returns a vector of daily heat units
+    and returns a vector of daily heat units. Heat units are
+    calculated by summing over approximated hourly temperatures.
 }
 \author{
 Matt Espe
