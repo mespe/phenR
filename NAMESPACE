@@ -1,3 +1,4 @@
 export(heat_units)
+export(read_weather)
 
 useDynLib(phenR)
